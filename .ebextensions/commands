@@ -1,8 +1,0 @@
-commands:
-  01_fix_path:
-    command: PATH=$PATH:`ls -td /opt/elasticbeanstalk/node-install/node-* | head -1`/bin
-  02_install_gatsby_cli:
-  	command: npm install --global gatsby-cli
-  03_gatsby_build:
-  	command: gatsby build
-  	cwd: /var/app/current/
