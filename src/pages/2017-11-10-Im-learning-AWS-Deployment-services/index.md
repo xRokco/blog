@@ -1,11 +1,11 @@
 ---
 title: I'm learning AWS deployment services
-date: "2017-11-10T17:00:000Z"
+date: "2017-11-10T21:00:00.000Z"
 path: "/im-learning-aws-deployment-services/"
 ---
 
 
-Well, you'd hope I actually know them, seeing as I'm working for AWS as a Cloud Support Associate in the Deployment team, right? Being in Deployment means dealing with some of AWS's most interesting services such as CloudFormation, EC2 Container Service, CodePipeline and OpsWorks, but when I started I barely had a clue.
+  Well, you'd hope I actually know them, seeing as I'm working for AWS as a Cloud Support Associate in the Deployment team, right? Being in Deployment means dealing with some of AWS's most interesting services such as CloudFormation, EC2 Container Service, CodePipeline and OpsWorks, but when I started I barely had a clue.
 
 When I interned here last year I was in the same team, but the queue was pretty baron - we had a lot of very good engineers and the services were still only starting to get popular. I also only did CloudFormation and Elastic Beanstalk cases back then, which are fairly simple services compared to the others. I was pretty much only doing general Linux cases back then. AWS feels a lot busier these days, and there's always a case to be done.
 
