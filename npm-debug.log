@@ -7,7 +7,7 @@
 6 silly lifecycle gatsby-starter-blog@1.0.0~prebuild: no script for prebuild, continuing
 7 info lifecycle gatsby-starter-blog@1.0.0~build: gatsby-starter-blog@1.0.0
 8 verbose lifecycle gatsby-starter-blog@1.0.0~build: unsafe-perm in lifecycle true
-9 verbose lifecycle gatsby-starter-blog@1.0.0~build: PATH: /usr/lib/node_modules/npm/bin/node-gyp-bin:/mnt/d/Documents/websites/blog/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Windows/System32:/mnt/c/Windows:/mnt/c/Windows/System32/wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Users/mattc/AppData/Local/Microsoft/WindowsApps
+9 verbose lifecycle gatsby-starter-blog@1.0.0~build: PATH: /usr/lib/node_modules/npm/bin/node-gyp-bin:/mnt/d/Documents/websites/blog/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
 10 verbose lifecycle gatsby-starter-blog@1.0.0~build: CWD: /mnt/d/Documents/websites/blog
 11 silly lifecycle gatsby-starter-blog@1.0.0~build: Args: [ '-c', 'gatsby build' ]
 12 silly lifecycle gatsby-starter-blog@1.0.0~build: Returned: code: 1  signal: null

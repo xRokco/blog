@@ -12,7 +12,7 @@ My job isn't, Cloud Support specifically. And I can't really think of any jobs i
 
 Thinking about the types of work which isn't known to have a union presence brought me to a somewhat distressing realisation - it's all "new" work.
 
-![factory](factory.png "factory")
+![factory](factory.jpg "factory")
 
 The vast majority of the large companies and corporations who have popped up or come to Ireland in the last 50 years do not seem to have a strong union presence, this includes
 
