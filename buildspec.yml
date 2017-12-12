@@ -4,6 +4,7 @@ phases:
     commands:
       - touch .npmignore
       - npm install -g gatsby
+      - npm install --save gatsby-plugin-twitter
   pre_build:
     commands:
       - npm install

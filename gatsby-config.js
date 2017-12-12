@@ -4,6 +4,7 @@ module.exports = {
     author: "Matt Carrick",
   },
   plugins: [
+    `gatsby-plugin-twitter`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
