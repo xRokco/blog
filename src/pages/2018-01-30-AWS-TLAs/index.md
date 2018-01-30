@@ -50,4 +50,4 @@ If it starts with a C, it probably means Cloud *(see CloudWatch, CloudTrail, Clo
 
 I hope all is clear now, until AWS releases a bunch of new services.
 
-* [Photo](https://unsplash.com/photos/BVyNlchWqzs) by Amador Loureiro on Unsplash *
+*[Photo](https://unsplash.com/photos/BVyNlchWqzs) by Amador Loureiro on Unsplash*
