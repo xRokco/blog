@@ -11,7 +11,7 @@ altonTheme.overrideThemeStyles = () => ({
   	fontSize: '15px'
   },
   'h2, h3': {
-  	fontFamily: 'Ovo',
+  	fontFamily: 'Muli',
   	fontWeight: '400'
   },
   'h1': {
