@@ -23,7 +23,7 @@ altonTheme.overrideThemeStyles = () => ({
   	fontSize: '15px'
   },
   'a': {
-  	color: '#CC7F0F'
+  	color: '#33728F'
   },
   'small': {
   	fontFamily: 'Muli',
