@@ -40,7 +40,7 @@ class Template extends React.Component {
       header = (
         <h3
           style={{
-            fontFamily: 'Montserrat, sans-serif',
+            fontFamily: 'Ovo, sans-serif',
             marginTop: 0,
             marginBottom: rhythm(-1),
             fontWeight: 500
