@@ -1,5 +1,5 @@
 ---
-title: Guide to AWSs acronyms
+title: Guide to AWS acronyms
 date: "2018-12-30T14:30:00.000Z"
 path: "/AWS-TLAs/"
 ---
