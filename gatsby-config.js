@@ -4,6 +4,16 @@ module.exports = {
     author: "Matt Carrick",
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-115192722-1",
+        // Puts tracking script in the head instead of the body
+        head: true,
+        // Setting this parameter is optional
+        anonymize: true,
+      }
+    },
     `gatsby-plugin-twitter`,
     `gatsby-plugin-react-helmet`,
     {
