@@ -60,7 +60,7 @@ I mean, it's Subway? I once just really wanted one so ordered one? That's usuall
 
 ## Eddie Rocket's Diner
 
-The original Eddie Rocket's, I only order from here when I want that awful cheese sauce smother on their bacon cheese fries and hotdogs, which is fairly often actually.
+The original Eddie Rocket's, I only order from here when I want that awful cheese sauce they smother on their bacon cheese fries and hotdogs, which is fairly often actually.
 
 ⭐⭐⭐
 
