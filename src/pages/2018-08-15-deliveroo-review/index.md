@@ -42,7 +42,7 @@ Maybe this is a guilty pleasure but sometimes you just want a big ole bucket of 
 
 ## Ciao
 
-These pizza's are OK. Nice most of the time but I've had the odd bad one. Honestly would probably never order this place from Deliveroo, but I do like like 1 minute away so just walk there and save the €3 delivery. If it wasn't for that I'd probably never eat one.
+These pizza's are OK. Nice most of the time but I've had the odd bad one. Honestly would probably never order this place from Deliveroo, but I do live like 1 minute away so just walk there and save the €3 delivery. If it wasn't for that I'd probably never eat one.
 
 ⭐⭐.5
 
