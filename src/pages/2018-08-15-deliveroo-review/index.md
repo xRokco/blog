@@ -84,7 +84,7 @@ Honestly the Fino Pita is literally the perfect piece of food so I don't have an
 
 ## Camden Rotisserie
 
-Lovely onion rings, but I think the night I ordered and ate three portions was the night I stopped liking them. Like when you drink too many warm cans of Bulmers as a 16 year old and now it makes you gag? Food otherwise is grand but nothing amazing, except for the onion rings which are both delicious/revolting to me.
+Lovely onion rings, but I think the night I ordered and ate three portions was the night I stopped liking them. Like when you drink too many warm cans of Bulmers as a 16 year old and now it makes you gag? Food otherwise is grand but nothing amazing, except for the onion rings which are both delicious and revolting to me at the same time.
 
 ⭐⭐⭐.5
 
