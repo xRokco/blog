@@ -10,7 +10,7 @@ Here's what I've gotten delivered to my face from the awful, awful company Deliv
 
 ## Rocket's
 
-This is the modern burger joint spin-off of Eddie Rocket's, which has lately been trialing a new style of burger in their Baggot Street restaurant. These burgers are *good*. Very similar in style to Wowburger or Five Guys or all those American places everyone likes, which is a good thing. These are the best style burger. Not as many topping choices as the previously mentioned places, and the chips are only ok, but these are my favourite burgers in the city.
+This is the modern burger joint spin-off of Eddie Rocket's, which has lately been trialling a new style of burger in their Baggot Street restaurant. These burgers are *good*. Very similar in style to Wowburger or Five Guys or all those American places everyone likes, which is a good thing. These are the best style burger. Not as many topping choices as the previously mentioned places, and the chips are only ok, but these are my favourite burgers in the city.
 
 ⭐⭐⭐⭐
 
@@ -72,13 +72,13 @@ My ex and I used to order from here when we wanted Mexican that wasn't on a plas
 
 ## Crackbird
 
-If I want some more expensive, more strongly flavoured fried check then this is a good place. Food can be a little too crispy for me or something. Batter seems a bit caramelised, but it's always tasted good. Tiny menu though so you'll only be going for one of their two chicken options.
+If I want some more expensive, more strongly flavoured fried check then this is a good place. Food can be a little too crispy for me or something. Batter seems a bit caramelized, but it's always tasted good. Tiny menu though so you'll only be going for one of their two chicken options.
 
 ⭐⭐⭐⭐
 
 ## Nando's
 
-Honestly the Fino Pitta is literally the perfect piece of food so I don't have anything bad to say about this place, despite the reputation.
+Honestly the Fino Pita is literally the perfect piece of food so I don't have anything bad to say about this place, despite the reputation.
 
 ⭐⭐⭐⭐.5
 
