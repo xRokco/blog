@@ -1,6 +1,6 @@
 ---
 title: Isolation and cinema trips
-date: "2020-02-03T19:30:00.000Z"
+date: "2020-02-03T14:30:00.000Z"
 path: "/isolation-and-cinema-trips/"
 ---
 
