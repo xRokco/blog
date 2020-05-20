@@ -9,7 +9,7 @@ phases:
       nodejs: 12
   build:
     commands:
-      - npm install -g gatsby
+      - npm install gatsby@latest
       - npm install
       - npm install typography react-typography react react-dom gatsby-plugin-twitter
       - gatsby build --prefix-paths
