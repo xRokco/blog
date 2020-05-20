@@ -10,9 +10,6 @@ phases:
     commands:
       - npm install
       - npm install gatsby-plugin-twitter
-  pre_build:
-    commands:
-      - npm install
   build:
     commands:
       - gatsby build --prefix-paths
