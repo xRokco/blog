@@ -1,39 +1,79 @@
-import React from 'react'
+/**
+ * Bio component that queries for data
+ * with Gatsby's useStaticQuery component
+ *
+ * See: https://www.gatsbyjs.org/docs/use-static-query/
+ */
 
-// Import typefaces
-import 'typeface-montserrat'
-import 'typeface-merriweather'
+import React from "react"
+import { useStaticQuery, graphql } from "gatsby"
+import Image from "gatsby-image"
 
-import profilePic from './profile-pic.jpg'
-import { rhythm } from '../utils/typography'
+import { rhythm } from "../utils/typography"
 
-class Bio extends React.Component {
-  render() {
-    return (
-      <div
+const Bio = () => {
+  const data = useStaticQuery(graphql`
+    query BioQuery {
+      avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
+        childImageSharp {
+          fixed(width: 50, height: 50) {
+            ...GatsbyImageSharpFixed
+          }
+        }
+      }
+      site {
+        siteMetadata {
+          author {
+            name
+            summary
+          }
+          social {
+            twitter
+            github
+            instagram
+          }
+        }
+      }
+    }
+  `)
+
+  const { author, social } = data.site.siteMetadata
+  return (
+    <div>
+      <Image
+        fixed={data.avatar.childImageSharp.fixed}
+        alt={author.name}
         style={{
-          display: 'flex',
-          marginBottom: rhythm(2.5),
+          marginRight: rhythm(1 / 2),
+          marginBottom: 0,
+          minWidth: 50,
+          borderRadius: `100%`,
+          float: "left"
         }}
+        imgStyle={{
+          borderRadius: `50%`,
+        }}
+      />
+      <p style={{
+        marginBottom: "0",
+        fontSize: "1.2em"
+      }}
       >
-        <img
-          src={profilePic}
-          alt={`Matt Carrick`}
-          style={{
-            marginRight: rhythm(1 / 2),
-            borderRadius: 230,
-            marginBottom: 0,
-            width: rhythm(2),
-            height: rhythm(2),
-          }}
-        />
-        <p>
-          Written by <strong>Matt Carrick.</strong>
-          <br/><a href="https://twitter.com/rokco_">Twitter</a> - <a href="https://github.com/xRokco">GitHub</a>
-        </p>
-      </div>
-    )
-  }
+        {author.name}
+      </p>
+      <p style={{
+        fontSize: "0.9em"
+      }}>
+        <a href={`https://twitter.com/${social.twitter}`}>
+          Twitter
+        </a> | <a href={`https://github.com/${social.github}`}>
+          Github
+        </a> | <a href={`https://instagram.com/${social.instagram}`}>
+          Instagram
+        </a>
+      </p>
+    </div>
+  )
 }
 
 export default Bio

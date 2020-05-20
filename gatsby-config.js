@@ -1,27 +1,32 @@
 module.exports = {
   pathPrefix: `/blog`,
   siteMetadata: {
-    title: "I don't proof read.",
-    author: "Matt Carrick",
+    title: `I don't proof read.`,
+    author: {
+      name: `Matt Carrick`,
+      summary: `DevOps engineer at VectraAI.`,
+    },
+    description: ``,
+    siteUrl: `https://rokco.org/blog`,
+    social: {
+      twitter: `Rokco_`,
+      github: `xRokco`,
+      instagram: `xRokco`,
+    },
   },
   plugins: [
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-source-filesystem`,
       options: {
-        trackingId: "UA-115192722-1",
-        // Puts tracking script in the head instead of the body
-        head: true,
-        // Setting this parameter is optional
-        anonymize: true,
-      }
+        path: `${__dirname}/content/blog`,
+        name: `blog`,
+      },
     },
-    `gatsby-plugin-twitter`,
-    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/pages`,
-        name: "pages",
+        path: `${__dirname}/content/assets`,
+        name: `assets`,
       },
     },
     {
@@ -40,9 +45,9 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
-          "gatsby-remark-prismjs",
-          "gatsby-remark-copy-linked-files",
-          "gatsby-remark-smartypants",
+          `gatsby-remark-prismjs`,
+          `gatsby-remark-copy-linked-files`,
+          `gatsby-remark-smartypants`,
         ],
       },
     },
@@ -54,13 +59,28 @@ module.exports = {
         //trackingId: `ADD YOUR TRACKING ID HERE`,
       },
     },
-    `gatsby-plugin-offline`,
-    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-feed`,
     {
-      resolve: "gatsby-plugin-typography",
+      resolve: `gatsby-plugin-manifest`,
       options: {
-        pathToConfigModule: "src/utils/typography",
+        name: `Gatsby Starter Blog`,
+        short_name: `GatsbyJS`,
+        start_url: `/`,
+        background_color: `#ffffff`,
+        theme_color: `#663399`,
+        display: `minimal-ui`,
+        icon: `content/assets/gatsby-icon.png`,
       },
     },
+    `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
+      },
+    },
+    // this (optional) plugin enables Progressive Web App + Offline functionality
+    // To learn more, visit: https://gatsby.dev/offline
+    // `gatsby-plugin-offline`,
   ],
 }

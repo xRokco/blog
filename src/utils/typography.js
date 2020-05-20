@@ -1,41 +1,46 @@
-import Typography from 'typography'
-//import Wordpress2016 from 'typography-theme-wordpress-2016'
-import altonTheme from 'typography-theme-alton'
+import Typography from "typography"
 
-altonTheme.overrideThemeStyles = () => ({
-  'a.gatsby-resp-image-link': {
-    boxShadow: 'none',
-  },
-  'table' : {
-  	fontFamily: 'Muli',
-  	fontSize: '15px'
-  },
-  'h2, h3': {
-  	fontFamily: 'Ovo',
-  	fontWeight: '400'
-  },
-  'h1': {
-  	fontFamily: 'Ovo',
-  	marginTop: '50px'
-  },
-  'p': {
-  	fontFamily: 'Muli',
-  	fontSize: '15px'
-  },
-  'a': {
-  	color: '#33728F'
-  },
-  'small': {
-  	fontFamily: 'Muli',
-  	fontWeight: '300'
-  }
+const typography = new Typography({
+  baseFontSize: "18px",
+  baseLineHeight: 1.666,
+  googleFonts: [
+    {
+      name: "Ovo",
+      styles: ["400"],
+    },
+    {
+      name: "Muli",
+      styles: ["400", "400i", "700", "700i"]
+    }
+  ],
+  headerFontFamily: [
+    "Ovo",
+    "serif"
+  ],
+  bodyFontFamily: ["Muli", "sans-serif"],
+  bodyColor: "hsla(0,0%,0%,0.9)",
+  headerWeight: 400,
+  bodyWeight: 400,
+  boldWeight: 700,
+  overrideStyles: ({ adjustFontSizeTo, scale, rhythm }, options) => ({
+    a: {
+      boxShadow: "0 1px 0 0 currentColor",
+      color: "#CC7F0F",
+      textDecoration: "none",
+    },
+    "a:hover": {
+      boxShadow: "0 1px 0 0 currentColor",
+      color: "#1EAEDB",
+      textDecoration: "none",
+    }
+  }),
 })
 
-const typography = new Typography(altonTheme)
-
 // Hot reload typography in development.
-if (process.env.NODE_ENV !== 'production') {
+if (process.env.NODE_ENV !== `production`) {
   typography.injectStyles()
 }
 
 export default typography
+export const rhythm = typography.rhythm
+export const scale = typography.scale
