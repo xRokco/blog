@@ -8,9 +8,8 @@ phases:
     runtime-versions:
       nodejs: 12
     commands:
-      - touch .npmignore
-      - npm install -g gatsby
-      - npm install --save gatsby-plugin-twitter
+      - npm install
+      - npm install gatsby-plugin-twitter
   pre_build:
     commands:
       - npm install
