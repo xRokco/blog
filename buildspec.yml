@@ -1,8 +1,8 @@
 version: 0.2
 env:
   secrets-manager:
-    github_username: github_creds:username
-    github_password: github_creds:password
+    github_username: /CodeBuild/github_creds:username
+    github_password: /CodeBuild/github_creds:password
 phases:
   install:
     runtime-versions:
