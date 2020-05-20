@@ -16,7 +16,7 @@ phases:
       - npm install
   build:
     commands:
-      - npm run build
+      - gatsby build --prefix-paths
   post_build:
     commands:
       - mkdir /temp
