@@ -18,5 +18,7 @@ phases:
       - cp -r public/* /temp/site/blog/
       - cd /temp/site
       - git add .
+      - git config --global user.email "matt@rokco.org"
+      - git config --global user.name "Matt Carrick"
       - git commit -m "adding new blog post"
       - git push https://$github_username:$github_password@github.com/xRokco/Rokco.org.git
