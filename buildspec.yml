@@ -7,12 +7,11 @@ phases:
   install:
     runtime-versions:
       nodejs: 12
+  build:
     commands:
       - npm install -g gatsby
       - npm install
       - npm install gatsby-plugin-twitter
-  build:
-    commands:
       - gatsby build --prefix-paths
   post_build:
     commands:
