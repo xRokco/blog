@@ -1,6 +1,8 @@
 version: 0.2
 phases:
   install:
+    runtime-versions:
+      nodejs: 12
     commands:
       - touch .npmignore
       - npm install -g gatsby
@@ -11,7 +13,12 @@ phases:
   build:
     commands:
       - npm run build
-artifacts:
-  files:
-    - "**/*"
-    - .ebextensions/**/*
+  post_build:
+    commands:
+      - mkdir /temp
+      - git clone https://github.com/xRokco/Rokco.org.git /temp/site
+      - cp -r public/* /temp/site/blog/
+      - cd /temp/site
+      - git add .
+      - git commit -m "adding new blog post"
+      - git push https://$USERNAME:$PASSWORD@github.com/xRokco/Rokco.org.git
