@@ -11,10 +11,8 @@ phases:
     commands:
       - npm install -g gatsby
       - npm install
-      - npm install gatsby-plugin-twitter
+      - npm install typography react-typography react react-dom gatsby-plugin-twitter
       - gatsby build --prefix-paths
-  post_build:
-    commands:
       - mkdir /temp
       - git clone https://github.com/xRokco/Rokco.org.git /temp/site
       - cp -r public/* /temp/site/blog/
