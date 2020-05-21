@@ -15,7 +15,7 @@ phases:
       - gatsby build --prefix-paths
       - mkdir /temp
       - git clone https://github.com/xRokco/Rokco.org.git /temp/site
-      - cp -r public/* /temp/site/blog/
+      - mkdir -p /temp/site/blog/ && cp -r public/* /temp/site/blog/
       - cd /temp/site
       - git add .
       - git config --global user.email "matt@rokco.org"
